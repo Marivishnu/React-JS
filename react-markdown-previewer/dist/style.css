@@ -1,0 +1,15 @@
+body {
+  background-color:  #79ff4d;
+}
+
+#editor-text, #preview-text {
+
+  padding: 20px;
+}
+
+#editor, #preview {
+  min-height: 400px;
+  min-width: 350px;
+  max-width: 500px;
+  background-color: #fff;
+}

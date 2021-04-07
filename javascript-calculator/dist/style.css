@@ -1,0 +1,48 @@
+#app {
+  width: 200px;
+  height: 800px;
+  margin-top: 200px;
+}
+
+#gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 4px;
+}
+
+#clear {
+ 
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:  #ff5c33;
+  color: white
+}
+
+#zero {
+  
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:  #ff5c33;
+  color: white
+}
+
+.item {
+  border-radius: 40%;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(0.93);
+}
+
+#add, #multiply, #divide, #subtract {
+  background-color:  #33adff;
+  color: #fff;
+}
+
+#equals {
+  background-color:  #1aff8c;
+  
+}
